@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29A6290F17F0D51000F7E21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6290E17F0D51000F7E21E /* Foundation.framework */; };
+		29A6291117F0D51000F7E21E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6291017F0D51000F7E21E /* CoreGraphics.framework */; };
+		29A6291317F0D51000F7E21E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6291217F0D51000F7E21E /* UIKit.framework */; };
+		29A6291917F0D51000F7E21E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29A6291717F0D51000F7E21E /* InfoPlist.strings */; };
+		29A6291B17F0D51000F7E21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6291A17F0D51000F7E21E /* main.m */; };
+		29A6291F17F0D51000F7E21E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6291E17F0D51000F7E21E /* AppDelegate.m */; };
+		29A6292217F0D51000F7E21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A6292017F0D51000F7E21E /* Main.storyboard */; };
+		29A6292517F0D51000F7E21E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6292417F0D51000F7E21E /* ViewController.m */; };
+		29A6292717F0D51000F7E21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A6292617F0D51000F7E21E /* Images.xcassets */; };
+		29A6292E17F0D51100F7E21E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6292D17F0D51100F7E21E /* XCTest.framework */; };
+		29A6292F17F0D51100F7E21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6290E17F0D51000F7E21E /* Foundation.framework */; };
+		29A6293017F0D51100F7E21E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6291217F0D51000F7E21E /* UIKit.framework */; };
+		29A6293817F0D51100F7E21E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29A6293617F0D51100F7E21E /* InfoPlist.strings */; };
+		29A6293A17F0D51100F7E21E /* SpeakIt_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6293917F0D51100F7E21E /* SpeakIt_Tests.m */; };
+		29A6294617F0D58E00F7E21E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6294517F0D58E00F7E21E /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29A6293117F0D51100F7E21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29A6290317F0D51000F7E21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A6290A17F0D51000F7E21E;
+			remoteInfo = "SpeakIt!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29A6290B17F0D51000F7E21E /* SpeakIt!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeakIt!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A6290E17F0D51000F7E21E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29A6291017F0D51000F7E21E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29A6291217F0D51000F7E21E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29A6291617F0D51000F7E21E /* SpeakIt!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakIt!-Info.plist"; sourceTree = "<group>"; };
+		29A6291817F0D51000F7E21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29A6291A17F0D51000F7E21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29A6291C17F0D51000F7E21E /* SpeakIt!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeakIt!-Prefix.pch"; sourceTree = "<group>"; };
+		29A6291D17F0D51000F7E21E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29A6291E17F0D51000F7E21E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29A6292117F0D51000F7E21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29A6292317F0D51000F7E21E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29A6292417F0D51000F7E21E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29A6292617F0D51000F7E21E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29A6292C17F0D51100F7E21E /* SpeakIt!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakIt!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A6292D17F0D51100F7E21E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29A6293517F0D51100F7E21E /* SpeakIt!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakIt!Tests-Info.plist"; sourceTree = "<group>"; };
+		29A6293717F0D51100F7E21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29A6293917F0D51100F7E21E /* SpeakIt_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakIt_Tests.m; sourceTree = "<group>"; };
+		29A6294317F0D58800F7E21E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		29A6294517F0D58E00F7E21E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A6290817F0D51000F7E21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6294617F0D58E00F7E21E /* AVFoundation.framework in Frameworks */,
+				29A6291117F0D51000F7E21E /* CoreGraphics.framework in Frameworks */,
+				29A6291317F0D51000F7E21E /* UIKit.framework in Frameworks */,
+				29A6290F17F0D51000F7E21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6292917F0D51100F7E21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6292E17F0D51100F7E21E /* XCTest.framework in Frameworks */,
+				29A6293017F0D51100F7E21E /* UIKit.framework in Frameworks */,
+				29A6292F17F0D51100F7E21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A6290217F0D51000F7E21E = {
+			isa = PBXGroup;
+			children = (
+				29A6291417F0D51000F7E21E /* SpeakIt! */,
+				29A6293317F0D51100F7E21E /* SpeakIt!Tests */,
+				29A6290D17F0D51000F7E21E /* Frameworks */,
+				29A6290C17F0D51000F7E21E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29A6290C17F0D51000F7E21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A6290B17F0D51000F7E21E /* SpeakIt!.app */,
+				29A6292C17F0D51100F7E21E /* SpeakIt!Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A6290D17F0D51000F7E21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A6294517F0D58E00F7E21E /* AVFoundation.framework */,
+				29A6294317F0D58800F7E21E /* JavaScriptCore.framework */,
+				29A6290E17F0D51000F7E21E /* Foundation.framework */,
+				29A6291017F0D51000F7E21E /* CoreGraphics.framework */,
+				29A6291217F0D51000F7E21E /* UIKit.framework */,
+				29A6292D17F0D51100F7E21E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29A6291417F0D51000F7E21E /* SpeakIt! */ = {
+			isa = PBXGroup;
+			children = (
+				29A6291D17F0D51000F7E21E /* AppDelegate.h */,
+				29A6291E17F0D51000F7E21E /* AppDelegate.m */,
+				29A6292017F0D51000F7E21E /* Main.storyboard */,
+				29A6292317F0D51000F7E21E /* ViewController.h */,
+				29A6292417F0D51000F7E21E /* ViewController.m */,
+				29A6292617F0D51000F7E21E /* Images.xcassets */,
+				29A6291517F0D51000F7E21E /* Supporting Files */,
+			);
+			path = "SpeakIt!";
+			sourceTree = "<group>";
+		};
+		29A6291517F0D51000F7E21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29A6291617F0D51000F7E21E /* SpeakIt!-Info.plist */,
+				29A6291717F0D51000F7E21E /* InfoPlist.strings */,
+				29A6291A17F0D51000F7E21E /* main.m */,
+				29A6291C17F0D51000F7E21E /* SpeakIt!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29A6293317F0D51100F7E21E /* SpeakIt!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				29A6293917F0D51100F7E21E /* SpeakIt_Tests.m */,
+				29A6293417F0D51100F7E21E /* Supporting Files */,
+			);
+			path = "SpeakIt!Tests";
+			sourceTree = "<group>";
+		};
+		29A6293417F0D51100F7E21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29A6293517F0D51100F7E21E /* SpeakIt!Tests-Info.plist */,
+				29A6293617F0D51100F7E21E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A6290A17F0D51000F7E21E /* SpeakIt! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A6293D17F0D51100F7E21E /* Build configuration list for PBXNativeTarget "SpeakIt!" */;
+			buildPhases = (
+				29A6290717F0D51000F7E21E /* Sources */,
+				29A6290817F0D51000F7E21E /* Frameworks */,
+				29A6290917F0D51000F7E21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeakIt!";
+			productName = "SpeakIt!";
+			productReference = 29A6290B17F0D51000F7E21E /* SpeakIt!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29A6292B17F0D51100F7E21E /* SpeakIt!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A6294017F0D51100F7E21E /* Build configuration list for PBXNativeTarget "SpeakIt!Tests" */;
+			buildPhases = (
+				29A6292817F0D51100F7E21E /* Sources */,
+				29A6292917F0D51100F7E21E /* Frameworks */,
+				29A6292A17F0D51100F7E21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A6293217F0D51100F7E21E /* PBXTargetDependency */,
+			);
+			name = "SpeakIt!Tests";
+			productName = "SpeakIt!Tests";
+			productReference = 29A6292C17F0D51100F7E21E /* SpeakIt!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A6290317F0D51000F7E21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jukaela Enterprises";
+				TargetAttributes = {
+					29A6292B17F0D51100F7E21E = {
+						TestTargetID = 29A6290A17F0D51000F7E21E;
+					};
+				};
+			};
+			buildConfigurationList = 29A6290617F0D51000F7E21E /* Build configuration list for PBXProject "SpeakIt!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A6290217F0D51000F7E21E;
+			productRefGroup = 29A6290C17F0D51000F7E21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A6290A17F0D51000F7E21E /* SpeakIt! */,
+				29A6292B17F0D51100F7E21E /* SpeakIt!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A6290917F0D51000F7E21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6292717F0D51000F7E21E /* Images.xcassets in Resources */,
+				29A6291917F0D51000F7E21E /* InfoPlist.strings in Resources */,
+				29A6292217F0D51000F7E21E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6292A17F0D51100F7E21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6293817F0D51100F7E21E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A6290717F0D51000F7E21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6292517F0D51000F7E21E /* ViewController.m in Sources */,
+				29A6291F17F0D51000F7E21E /* AppDelegate.m in Sources */,
+				29A6291B17F0D51000F7E21E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6292817F0D51100F7E21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A6293A17F0D51100F7E21E /* SpeakIt_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29A6293217F0D51100F7E21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A6290A17F0D51000F7E21E /* SpeakIt! */;
+			targetProxy = 29A6293117F0D51100F7E21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29A6291717F0D51000F7E21E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6291817F0D51000F7E21E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29A6292017F0D51000F7E21E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6292117F0D51000F7E21E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29A6293617F0D51100F7E21E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6293717F0D51100F7E21E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29A6293B17F0D51100F7E21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29A6293C17F0D51100F7E21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A6293E17F0D51100F7E21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakIt!/SpeakIt!-Prefix.pch";
+				INFOPLIST_FILE = "SpeakIt!/SpeakIt!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29A6293F17F0D51100F7E21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakIt!/SpeakIt!-Prefix.pch";
+				INFOPLIST_FILE = "SpeakIt!/SpeakIt!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29A6294117F0D51100F7E21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeakIt!.app/SpeakIt!";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakIt!/SpeakIt!-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpeakIt!Tests/SpeakIt!Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29A6294217F0D51100F7E21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeakIt!.app/SpeakIt!";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakIt!/SpeakIt!-Prefix.pch";
+				INFOPLIST_FILE = "SpeakIt!Tests/SpeakIt!Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A6290617F0D51000F7E21E /* Build configuration list for PBXProject "SpeakIt!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A6293B17F0D51100F7E21E /* Debug */,
+				29A6293C17F0D51100F7E21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A6293D17F0D51100F7E21E /* Build configuration list for PBXNativeTarget "SpeakIt!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A6293E17F0D51100F7E21E /* Debug */,
+				29A6293F17F0D51100F7E21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29A6294017F0D51100F7E21E /* Build configuration list for PBXNativeTarget "SpeakIt!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A6294117F0D51100F7E21E /* Debug */,
+				29A6294217F0D51100F7E21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29A6290317F0D51000F7E21E /* Project object */;
+}
