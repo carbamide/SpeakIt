@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0C5D102-1148-4AF6-B799-CD567EF3C235</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpeakIt!</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8583E84-BA4E-4B5F-B423-4426FD460A53</key>
+		<string>https://github.com/carbamide/SpeakIt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpeakIt!.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8583E84-BA4E-4B5F-B423-4426FD460A53</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carbamide/SpeakIt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8583E84-BA4E-4B5F-B423-4426FD460A53</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8583E84-BA4E-4B5F-B423-4426FD460A53</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpeakIt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

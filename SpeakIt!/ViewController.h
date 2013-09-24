@@ -6,14 +6,17 @@
 //  Copyright (c) 2013 Jukaela Enterprises. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import AVFoundation;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVSpeechSynthesizerDelegate>
+
 @property (strong, nonatomic) IBOutlet UITextView *speechTextView;
 @property (strong, nonatomic) IBOutlet UIButton *speakItButton;
-@property (strong, nonatomic) IBOutlet UISegmentedControl *speedSegCont;
+@property (strong, nonatomic) IBOutlet UISlider *speedSlider;
+@property (strong, nonatomic) IBOutlet UISlider *pitchSlider;
 
 -(IBAction)speakItAction:(id)sender;
 -(IBAction)speedAction:(id)sender;
+-(IBAction)pitchAction:(id)sender;
 
 @end
